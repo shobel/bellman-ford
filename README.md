@@ -1,14 +1,14 @@
 # bellman-ford
 
-Compilation steps: run the command `makeAll.sh` OR
+#### Compilation steps
+run the command `makeAll.sh` OR
 run the following individual commands:
 g++ BellmanFord.cpp -o BellmanFord
 g++ BellmanFordPipe.cpp -o BellmanFordPipe
 g++ GraphGen.cpp -o GraphGen
 g++ GraphGenPipe.cpp -o GraphGenPipe
 
-Additional Information: 
-
+#### Additional Information 
 The BellmanFord executable will write the solution to stdout as well as to a
 file with the naming convention "N{num_nodes}solution.txt". The GraphGen
 executable will also write the random graph to stdout as well as to a file
